@@ -1,0 +1,7 @@
+- hosts: prometheus_servers
+  become: true
+  roles:
+    - { role: prometheus }
+
+
+    
